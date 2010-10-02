@@ -1,0 +1,7 @@
+body {background-color:#ECECEC;}
+img {
+        border:3px solid #E4E4E4;
+        -webkit-box-shadow: 3px 3px 7px #888;
+        -moz-box-shadow: 3px 3px 7px #888;
+}
+#header {margin-top:2em;}
