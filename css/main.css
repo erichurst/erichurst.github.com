@@ -1,7 +1,34 @@
 body {background-color:#ECECEC;}
+
 img {
         border:3px solid #E4E4E4;
         -webkit-box-shadow: 3px 3px 7px #888;
         -moz-box-shadow: 3px 3px 7px #888;
+        -o-box-shadow: 3px 3px 7px #888;
 }
+
+a, a:link, a:hover, a:active {
+        border:1px solid #999;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -o-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -webkit-box-shadow: inset 1px 1px 0px #CCC, inset -1px -1px 0px #CCC;
+        -moz-box-shadow: inset 1px 1px 0px #CCC, inset -1px -1px 0px #CCC;
+        -o-box-shadow: inset 1px 1px 0px #CCC, inset -1px -1px 0px #CCC;
+        padding:4px 6px;
+        background-color: #BBB;
+        color: #333;
+        text-decoration: none;
+        text-shadow: 0 1px 1px #fff;
+}
+
+a:hover {
+        background-color: #CCC;
+}
+
+a:active {
+        background-color: #AAA;
+}
+
 #header {margin-top:2em;}
