@@ -1,34 +1,106 @@
-body {background-color:#ECECEC;}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-img {
-        border:3px solid #E4E4E4;
-        -webkit-box-shadow: 3px 3px 7px #888;
-        -moz-box-shadow: 3px 3px 7px #888;
-        -o-box-shadow: 3px 3px 7px #888;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-a, a:link, a:hover, a:active {
-        border:1px solid #999;
-        border-radius: 10px;
-        -moz-border-radius: 10px;
-        -o-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -webkit-box-shadow: inset 1px 1px 0px #CCC, inset -1px -1px 0px #CCC;
-        -moz-box-shadow: inset 1px 1px 0px #CCC, inset -1px -1px 0px #CCC;
-        -o-box-shadow: inset 1px 1px 0px #CCC, inset -1px -1px 0px #CCC;
-        padding:4px 6px;
-        background-color: #BBB;
-        color: #333;
-        text-decoration: none;
-        text-shadow: 0 1px 1px #fff;
+/*
+ * CUSTOM
+ */
+
+html {
+  background: url(/images/eric-hurst-background.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-a:hover {
-        background-color: #CCC;
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
-a:active {
-        background-color: #AAA;
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  #info {
+    margin-top: 10%;
+  }
 }
 
-#header {margin-top:2em;}
+  /* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+  #info {
+    margin-top: 10%;
+  }
+}
+
+
+#info {
+  background-color: #8efa00;
+  color: #FFF;
+  margin-top: 33%;
+  padding: 0px;
+}
+
+#info > h1 {
+  font-weight: 900;
+  font-size: 1200%
+}
+ 
+#info > #social {
+  margin-top: 1%;
+}
+
+#social > .social-channel {
+  font-size: 500%;
+}
