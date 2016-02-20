@@ -37,7 +37,7 @@ body {
  * CUSTOM
  */
 
-html body {
+html {
   background: url(/images/eric-hurst-background-2.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
