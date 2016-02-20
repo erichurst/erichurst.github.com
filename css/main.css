@@ -73,7 +73,7 @@ h1 {
   flex: 1 100%;
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 760px) {
   h1 {
     font-size: 750%;
     width: 200%;
