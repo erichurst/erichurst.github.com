@@ -37,14 +37,12 @@ body {
  * CUSTOM
  */
 
-html {
+html body {
   background: url(/images/eric-hurst-background-2.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: 100%;
-  height: 100%;
 }
 
 a {color: #fff; text-decoration: none;}
@@ -60,7 +58,6 @@ h1 {
 }
 
 #social {
-  width: 100%;
   margin-top: 25%;
   background-color: #8efa00;
   color: #fff;
