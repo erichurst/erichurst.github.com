@@ -29,22 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+  font-family: 'Roboto', sans-serif;
 	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
 }
 
 /*
@@ -52,55 +38,55 @@ table {
  */
 
 html {
-  background: url(/images/eric-hurst-background.gif) no-repeat center center fixed;
+  background: url(/images/eric-hurst-background-2.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-}
+a {color: #fff; text-decoration: none;}
+a:hover {color: #000;}
 
-/* ----------- Non-Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-  #info {
-    margin-top: 10%;
-  }
-}
-
-  /* ----------- Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
-  #info {
-    margin-top: 10%;
-  }
-}
-
-
-#info {
-  background-color: #8efa00;
-  color: #FFF;
-  margin-top: 33%;
-  padding: 0px;
-}
-
-#info > h1 {
+h1 {
+  color: #8efa00;
   font-weight: 900;
-  font-size: 1200%
-}
- 
-#info > #social {
-  margin-top: 1%;
+  font-size: 540%;
+  width: 115%;
+  margin-left: -1.5%;
+  margin-top: -2.75%;
 }
 
-#social > .social-channel {
-  font-size: 500%;
+#social {
+  margin-top: 25%;
+  background-color: #8efa00;
+  color: #fff;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.social-channel {
+  font-weight: 700;
+  font-size: 250%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  flex: 1 100%;
+}
+
+@media all and (min-width: 600px) {
+  h1 {
+    font-size: 750%;
+    width: 200%;
+    margin-left: -1%;
+    margin-top: -1.5%;
+  }
+  #social {
+    margin-top: 15%;
+    text-align: center;
+    align-items: center;
+    height: 10em;
+  }
+  .social-channel {
+    flex: 1 auto;
+  }
 }
