@@ -47,7 +47,7 @@ html {
   background-position: calc(180px + 100%) calc(100% + 180px);
 }
 
-a {color: #3D3D3D; text-decoration: none;}
+a {color: #ACACAC; text-decoration: none;}
 a:hover {color: #ADADAD;}
 
 h1 {
@@ -58,9 +58,10 @@ h1 {
 }
 
 #social {
-  color: #3D3D3D;
+  color: #5D5D5D;
   display: flex;
   flex-flow: row wrap;
+  padding-left: 0.65em;
 }
 
 .social-channel {
