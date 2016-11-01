@@ -38,55 +38,52 @@ body {
  */
 
 html {
-  background: url(/images/eric-hurst-background-2.gif) no-repeat center center fixed;
+  background: url(/images/eric-hurst.png) no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: #f1f1f1;
+  background-position: calc(180px + 100%) calc(100% + 180px);
 }
 
-a {color: #fff; text-decoration: none;}
-a:hover {color: #000;}
+a {color: #3D3D3D; text-decoration: none;}
+a:hover {color: #ADADAD;}
 
 h1 {
-  color: #8efa00;
-  font-weight: 900;
-  font-size: 540%;
-  /* width: 115%; */
-  margin-left: -1.5%;
-  margin-top: -2.75%;
+  font-family: 'Knewave', cursive;
+  color: #CACACA;
+  font-size: 400%;
+  margin: 0.15em 0.2em;
 }
 
 #social {
-  margin-top: 25%;
-  background-color: #8efa00;
-  color: #fff;
+  color: #3D3D3D;
   display: flex;
   flex-flow: row wrap;
 }
 
 .social-channel {
-  font-weight: 700;
-  font-size: 250%;
+  /* font-size: 250%; */
   margin-top: 2%;
   margin-bottom: 2%;
   flex: 1 100%;
 }
 
-@media all and (min-width: 760px) {
-  h1 {
-    font-size: 750%;
-    width: 200%;
-    margin-left: -1%;
-    margin-top: -1.5%;
-  }
-  #social {
-    margin-top: 15%;
-    text-align: center;
-    align-items: center;
-    height: 10em;
-  }
-  .social-channel {
-    flex: 1 auto;
-  }
-}
+/* @media all and (min-width: 760px) { */
+/*   h1 { */
+/*     font-size: 750%; */
+/*     width: 200%; */
+/*     margin-left: -1%; */
+/*     margin-top: -1.5%; */
+/*   } */
+/*   #social { */
+/*     margin-top: 15%; */
+/*     text-align: center; */
+/*     align-items: center; */
+/*     height: 10em; */
+/*   } */
+/*   .social-channel { */
+/*     flex: 1 auto; */
+/*   } */
+/* } */
